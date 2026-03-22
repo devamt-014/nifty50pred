@@ -1,0 +1,40 @@
+# ============================================================
+# .gitignore -- NIFTY 50 ML Project
+# ============================================================
+
+# Data files (too large / Kaggle's data / generated)
+nifty50_kaggle.csv
+nifty50_features.csv
+nifty50_raw.csv
+
+# Personal trading logs (private)
+predictions_log.csv
+last_prediction.csv
+signals_log.csv
+
+# Generated plots
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
